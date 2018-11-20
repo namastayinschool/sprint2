@@ -6,7 +6,7 @@
 To install this library, run the following command in your Terminal/cmd:
 > `composer require fzaninotto/faker`  
 
-The volunteers table was also seeded with dummy data, however, if you already have records in your `volunteers` table, you do not need to seed the database.
+The volunteers table was also seeded with dummy data, however, if you already have records in your `volunteers` table, you do not need to seed this table.
 
 To seed the databases, run the following commands:
 > `composer dump-autoload`
