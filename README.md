@@ -15,7 +15,7 @@ To seed the databases, run the following commands:
 
 > `php artisan db:seed --class=VolunteersTableSeeder` 
 
-###### If your `vos` table already has records and you prefer not to install the Faker library, you may choose not to do so, but you may need to do a mass search and replace in the files, replacing `volorgs` with `vos` and `volorg` with `vo`. However, to avoid any possible issues (which I may not be able to help you with 🙃), I suggest that you either rename your `vos` table to `volorgs` or create a new `volorgs` table altogether.
+###### If your `vos` table already has records and you prefer not to install the Faker library, you may choose not to do so, but you may need to do a mass search and replace in the files, replacing `volorgs` with `vos` and `volorg` with `vo`. However, to avoid any possible issues, I suggest that you either rename your `vos` table to `volorgs` or create a new `volorgs` table altogether.
 
 To access the login page: http://localhost:8000/volorg
 
